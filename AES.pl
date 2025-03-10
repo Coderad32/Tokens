@@ -14,7 +14,7 @@ my $cipher = Crypt::CBC->new(
 );
 
 # Encrypt some data
-my $data = 'Hello, World!';
+my $data = 'AZ09(!@#$%^&*)-=_+=-';
 my $encrypted = $cipher->encrypt($data);
 print "Encrypted: $encrypted\n";
 
